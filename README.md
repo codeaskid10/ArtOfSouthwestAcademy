@@ -2,5 +2,7 @@
 Github Section For The Art Of Southwest Academy Website
 Build Off HTML, W3.CSS, CSS
 Credit To W3SCHOOLS for some Assets
+<br>
 MS HELD
+<br>
 MS COTE
