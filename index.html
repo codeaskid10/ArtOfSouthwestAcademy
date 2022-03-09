@@ -25,6 +25,26 @@
             .w3-third img:hover {
                 opacity: 1
             }
+            .alert {
+  padding: 20px;
+  background-color: lightblue;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
         </style>
     </head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
@@ -56,6 +76,10 @@
         <!-- Push down content on small screens -->
         <div class="w3-hide-large" style="margin-top:83px"></div>
 
+        <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>APP!</strong> Install The App For Android At This Link <br><a href="https://codeaskid10.github.io/ArtOfSouthwestAcademy/app.html">HERE!</a>
+</div>
         <!-- Photo grid -->
         <div class="w3-row">
             <div class="w3-half">
